@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lan -Sr ../boot ../ ./
+ls -lat ./ ../ ../boot
