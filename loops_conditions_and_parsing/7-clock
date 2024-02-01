@@ -5,8 +5,8 @@ minute=1
 
 # Using a while loop to display the time
 while [ $hour -le 12 ]; do
-printf "Hour: %02d\n" $hour    
-while [ $minute -le 59 ]; do
+    printf "Hour: %02d\n" $hour    
+    while [ $minute -le 59 ]; do
         # Display the current time
         printf "%02d\n" $minute
 
