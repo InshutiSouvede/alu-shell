@@ -8,17 +8,17 @@ while [ $counter -le 20 ]; do
         4)
             # Display "4 and bad luck from China" for the 4th iteration
             echo "4"
-            echo "and bad luck from China"
+            echo "bad luck from China"
             ;;
         9)
             # Display "9 and bad luck from Japan" for the 9th iteration
             echo "9"
-            echo "and bad luck from Japan"
+            echo "bad luck from Japan"
             ;;
         17)
             # Display "17 and bad luck from Italy" for the 17th iteration
             echo "17"
-            echo "and bad luck from Italy"
+            echo "bad luck from Italy"
             ;;
         *)
             # Display the current number for other iterations
