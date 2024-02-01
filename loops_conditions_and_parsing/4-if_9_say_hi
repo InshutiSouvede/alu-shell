@@ -5,7 +5,7 @@ counter=0
 while [ $counter -lt 10 ]; do
      if [ $counter -eq 8 ]; then
         # Display "Best School" and then "Hi" on a new line for the 9th iteration
-        echo -n "Best School"
+        echo -e "Best School\n"
         echo " Hi"
     else
         # Display "Best School" for other iterations
