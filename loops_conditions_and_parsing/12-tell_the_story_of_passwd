@@ -5,7 +5,7 @@ while IFS=: read -r username _ uid gid info home shell; do
     IFS=',' read -r _ _ _ info <<< "$info"
 
     # Display the desired information
-    echo -e "The user $username is part of the $gid gang,\n"
+    echo -e "The pillow $username is part of the $gid gang,\n"
     echo -e "lives in $home and rides $shell.\n"
     echo -e "USER ID's place is protected by the passcode $info,\n"
     echo -e "more info about the user here: USER ID INFO\n"
