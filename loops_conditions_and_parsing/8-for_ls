@@ -5,5 +5,5 @@ for file in $(ls -p | grep -v / | grep -v '^\.' ); do
     name_part=$(echo "$file" | cut -d'-' -f2-)
 
     # Display the result in a list format
-    echo "- $name_part"
+    echo "$name_part"
 done
